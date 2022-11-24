@@ -34,7 +34,7 @@ include('header.php');
                     </div>
 
                     <div class="container">
-                        <canvas id="pie-chart" width="400" height="400"></canvas>
+                        <canvas id="pie-chart" width="600" height="430"></canvas>
     
                         <script>
                             var ctp = document.getElementById('pie-chart').getContext('2d');
@@ -87,8 +87,8 @@ include('header.php');
                                 <td data-label="Aberto Por">Gustavo Silva</td>
                                 <td data-label="Prioridade">Alta</td>
                                 <td data-label="Ações">
-                                    <a href="chamados.php"><button class="acoes">+</button></a>
-                                    <a href="chamados.php"><button class="acoes">-</button></a>
+                                    <a href="chamados.php"><button class="acoes backverde">+</button></a>
+                                    <a href="chamados.php"><button class="acoes backred">-</button></a>
                                     <a href="chamados.php"><button class="acoes">=</button></a>
                                 </td>
                               </tr>
@@ -99,8 +99,8 @@ include('header.php');
                                 <td data-label="Aberto Por">Soares Silva</td>
                                 <td data-label="Prioridade">Alta</td>
                                 <td data-label="Ações">
-                                    <a href="chamados.php"><button class="acoes">+</button></a>
-                                    <a href="chamados.php"><button class="acoes">-</button></a>
+                                    <a href="chamados.php"><button class="acoes backverde">+</button></a>
+                                    <a href="chamados.php"><button class="acoes backred">-</button></a>
                                     <a href="chamados.php"><button class="acoes">=</button></a>
                                 </td>
                               </tr>

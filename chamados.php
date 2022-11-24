@@ -49,8 +49,8 @@ include('header.php');
                                 <td data-label="Aberto Por">Gustavo Silva</td>
                                 <td data-label="Prioridade">Alta</td>
                                 <td data-label="Ações">
-                                    <a href="chamados.php"><button class="acoes">+</button></a>
-                                    <a href="chamados.php"><button class="acoes">-</button></a>
+                                    <a href="chamados.php"><button class="acoes backverde">+</button></a>
+                                    <a href="chamados.php"><button class="acoes backred">-</button></a>
                                     <a href="chamados.php"><button class="acoes">=</button></a>
                                 </td>
                               </tr>
@@ -61,8 +61,8 @@ include('header.php');
                                 <td data-label="Aberto Por">Soares Silva</td>
                                 <td data-label="Prioridade">Alta</td>
                                 <td data-label="Ações">
-                                    <a href="chamados.php"><button class="acoes">+</button></a>
-                                    <a href="chamados.php"><button class="acoes">-</button></a>
+                                    <a href="chamados.php"><button class="acoes backverde">+</button></a>
+                                    <a href="chamados.php"><button class="acoes backred">-</button></a>
                                     <a href="chamados.php"><button class="acoes">=</button></a>
                                 </td>
                               </tr>

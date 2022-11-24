@@ -7,30 +7,57 @@ include('header.php');
             include('sidebar.php');
         ?>
             <div class="conteudo">
-                <h2 id="programas">Abrir Chamado</h2>
-                <section id="computadores">
-                    <article>
-                        <div class="iconarticle" style="background-image: url('img/categorias/categoria1.png')"></div>
-                        <div class="contentarticle">
+                <section id="chamado2">
+
+                    <div class="tipochamado2">
+                        <img class="iconchamado2" src="img/categorias/categoria1.jpg">
+                        <div class="contentchamado2">
+                            <h5>COMPUTADORES, EQUIPAMENTOS & IMPRESSÃO</h5>
+                            <ul>
+                                <li>
+                                    <p>Inclui o suporte e ajuda na resolução de problemas relacionados a equipamentos de informática, tais como computadores e impressoras.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="tipochamado">
+                        <div class="iconchamado" style="background-image: url('img/categorias/categoria4.png')"></div>
+                        <div class="contentchamado">
+                        <a class="linkarticle" href="adicionarChamado3.php"><h5>MONITOR</h5><a>
                         <ul>
                             <li>
-                            <a class="linkarticle">Computador sem Conexão com Internet</a>
+                            <p>Resolução de problemas relacionados a Monitores de Vídeo.</p>
                             </li>
                         </ul>
                         </div>
-                    </article>
+                    </div>
+
+                    <div class="tipochamado">
+                        <div class="iconchamado" style="background-image: url('img/categorias/categoria2.png')"></div>
+                        <div class="contentchamado">
+                        <a class="linkarticle" href="adicionarChamado3.php"><h5>PAE (Sistemas Governo Digital)</h5><a>
+                        <ul>
+                            <li>
+                            <p>Auxílio e suporte com tarefas exercidas no PAE e esclarecimentos de falhas ou resoluções locais</p>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
+                    <div class="tipochamado">
+                        <div class="iconchamado" style="background-image: url('img/categorias/categoria3.png')"></div>
+                        <div class="contentchamado">
+                        <a class="linkarticle" href="adicionarChamado3.php"><h5>SUPORTE A EVENTOS, SALAS DE AUDIÊNCIAS E SESSÕES</h5><a>
+                        <ul>
+                            <li>
+                            <p>Inclui apoio da NTI em eventos diversos, salas de audiências de Sessões e Turmas.</p>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+
                 </section>
-                <form method="POST" action="index.php">
-
-                    <h4>Título do Chamado *</h4>
-                    <input type="text" name="chamado_title" required minlength="10" max="90">
-
-                    <h4>Descrição do Chamado</h4>
-                    <textarea rows="8" name="chamado_desc"></textarea>
-
-                    <button type="submit">Enviar Chamado</button>
-
-                </form>
             </div>
         </main>
 
