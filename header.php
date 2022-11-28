@@ -34,6 +34,6 @@
             <div class="headerside">
             <h6>Felipe Carlos</h6>
             <img src="img/perfil.png" id="fotoperfil">
-            <a href="login.html"><i class="fa-solid fa-arrow-right-from-bracket bars" id="i-exit"></i></a>
+            <a href="login.php"><i class="fa-solid fa-arrow-right-from-bracket bars" id="i-exit"></i></a>
             </div>
         </header>

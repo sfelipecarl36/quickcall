@@ -4,8 +4,8 @@
 
     <head>
 
-        <title>Login TRT8</title>
-        <link rel="icon" type="image/png" href="img/trt8-icon.png">
+        <title>Login IDEFLOR</title>
+        <link rel="icon" type="image/png" href="img/icon.png">
 
         <style type="text/css">
 
@@ -23,7 +23,7 @@
             }
 
             body{
-                background-image: url('img/trt8-fundo2.jpg');
+                background-image: url('img/fundo2.jpg');
                 background-blend-mode: multiply;
                 background-color: rgb(37, 76, 148);
                 background-size: cover;
@@ -38,7 +38,7 @@
             }
 
             #logo{
-                background-image: url('img/trt8-logo.png');
+                background-image: url('img/logo.png');
                 background-size: contain;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -148,12 +148,12 @@
 
         <div class="caixalogin flexcolumn">
                 <div id="logo"><p> </p></div>
-            <form method="POST" action="indexTRT8.html">
+            <form action="Auth.php" method="post">
                 <div class="caixaform">
-                    <label for="cpf">CPF</label>
-                    <input type="text" id="cpf" name="cpf" pattern="[0-9]{11}" autofocus required placeholder="XXX.XXX.XXX-XX">
-                    <label for="senha">Senha</label>
-                    <input type="password" id="senha" name="cpf" minlength="8" maxlength="25" required placeholder="********">
+                    <label for="username">Usuário</label>
+                    <input type="text" id="username" name="username" minlength="4" maxlength="20" autofocus required placeholder="user.name">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" minlength="8" maxlength="25" required placeholder="********">
                     <button type="submit">Entrar</button>
                 </div>
             </form>

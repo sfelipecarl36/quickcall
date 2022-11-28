@@ -28,7 +28,7 @@
                     <h4 id="textescuro">Escuro</h4>
                 </div></a>
 
-                <a href="login.html" class="a-sidebaritem"><div class="sidebaritem">
+                <a href="login.php" class="a-sidebaritem"><div class="sidebaritem">
                     <i class="fa-solid fa-right-from-bracket fa"></i>
                     <h4>Sair</h4>
                 </div></a>
